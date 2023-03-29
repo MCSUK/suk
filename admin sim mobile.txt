@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ADMIN SIM LITTLE SCRIPT", "DarkTheme")
+local Window = Library.CreateLib("ADMIN SIM SCRIPT MOBILE", "DarkTheme")
  
 --Main
 local Main = Window:NewTab("Main")
@@ -96,7 +96,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild(
  
 end)
 
-PlayerSection:NewButton("AdminBetter", "Opens Admin abuser(Credits to Fedoratum)", function()
+PlayerSection:NewButton("AdminAbuser", "Opens Admin abuser (Credits to Fedoratum)", function()
 --[[
 ___          _                     _                     
   / __\___   __| |  ___   _ __  __ _ | |_  _   _  _ __ ___  
