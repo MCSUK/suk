@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ADMIN SIM SCRIPT (LOW EFFORT)", "DarkTheme")
+local Window = Library.CreateLib("ADMIN SIM SCRIPT (LOW EFFORT) BY ASTRO", "DarkTheme")
 --Main
 
 local Main = Window:NewTab("Main")
@@ -149,7 +149,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild(
 end)
 
 MusicsSection:NewButton("Closer", "Closer time", function()
-local args = {
+local args = {d
     [1] = ":closersong"
 }
 
@@ -177,6 +177,6 @@ end)
 
 --Credits
 local Credits = Window:NewTab("Credits")
-local CreditsSection = Credits:NewSection("Made by Jacobking10980/MCSUK")
-local CreditsSection = Credits:NewSection("Scripting by Jacobking10980/MCSUK")
+local CreditsSection = Credits:NewSection("Made by ASTRO/MCSUK")
+local CreditsSection = Credits:NewSection("Scripting by ASTRO/MCSUK")
 
