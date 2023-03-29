@@ -90,7 +90,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("ReplicatedRemotes"):WaitForCh
  
 end)
 
-SpecialsSection:NewButton("Fake rank 5k levels+", "Fake rank", function()
+SpecialsSection:NewButton("Fake rank 5K+ levels+", "Fake rank", function()
 local args = {
     [1] = ":notice all You've been ranked to 'LegacyCreator'!"
 }
@@ -99,7 +99,7 @@ game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild(
  
 end)
 
-SpecialsSection:NewButton("Naked", "NUDE", function()
+SpecialsSection:NewButton("Naked 4K+", "NUDE", function()
 local args = {
     [1] = ":pants all 0 :shirt all 0"
 }
@@ -107,3 +107,4 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
 
 end)
+
