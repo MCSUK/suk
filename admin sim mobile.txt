@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("ADMIN SIM SCRIPT MOBILE", "DarkTheme")
+local Window = Library.CreateLib("ADMIN SIM SCRIPT MOBILE", "DarkTheme") --https://web.roblox.com/games/218377574/Admin-Simulator
  
 --Main
 local Main = Window:NewTab("Main")
