@@ -1,6 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Admin sim script", "DarkTheme")
-
 --Main
 
 local Main = Window:NewTab("Main")
@@ -108,7 +107,70 @@ game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild(
 
 end)
 
---Credits
-local Credits = Window:NewTab("Credits")
-local CreditsSection = Credits:NewSection("Made by Jacobking10980/MCSUK")
-local CreditsSection = Credits:NewSection("Scripting by Jacobking10980/MCSUK")
+--Music
+local Musics = Window:NewTab("Musics")
+local MusicsSection = Musics:NewSection("Music/Disco")
+
+MusicsSection:NewButton("Disco", "Party ime", function()
+local args = {
+    [1] = ":disco"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+MusicsSection:NewButton("UnDisco", "unParty ime", function()
+local args = {
+    [1] = ":Undisco"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+
+MusicsSection:NewButton("Tacos", "Taco ime", function()
+local args = {
+    [1] = ":rainingtacos"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+MusicsSection:NewButton("OtherGameSongs", "??? itme", function()
+local args = {
+    [1] = ":destroysong"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+MusicsSection:NewButton("Closer", "Closer time", function()
+local args = {
+    [1] = ":closersong"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+MusicsSection:NewButton("PressPlay", "PressPlay song", function()
+local args = {
+    [1] = ":tokyosong"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
+
+MusicsSection:NewButton("Mute song", "Mute the trash fucking song", function()
+local args = {
+    [1] = ":nomusic"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("HDAdminClient"):WaitForChild("Signals"):WaitForChild("RequestCommand"):InvokeServer(unpack(args))
+
+end)
